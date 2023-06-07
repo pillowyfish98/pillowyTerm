@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Active Terminal</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <div id="title-bar">Active Terminal</div>
+  <div id="terminal">
+    <div id="screen">Type "goto-page info" for info on this site</div>
+    <div id="input-container">
+      <span id="prompt">$&gt;</span>
+      <input id="input" type="text" autofocus />
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script>
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+  </script>
+</body>
+</html>

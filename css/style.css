@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: lime;
+  font-family: "Courier New", Courier, monospace;
+  user-select: none; /* Disable text highlighting */
+}
+
+  
+  #terminal {
+    width: 800px;
+    height: 500px;
+    border: 2px solid lime;
+    padding: 10px;
+    overflow: auto;
+  }
+  #title-bar {
+    background-color: black;
+    color: lime;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #screen {
+    background-color: black;
+    height: 90%;
+    overflow: auto;
+    padding: 5px;
+  }
+  #screen {
+    background-color: black;
+    height: 90%;
+    overflow: auto;
+    padding: 5px;
+  }
+  
+  #prompt {
+    color: lime;
+  }
+  
+  #input {
+    background: transparent;
+    color: lime;
+    border: none;
+    outline: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: inherit;
+    width: 100%;
+  }
+  
